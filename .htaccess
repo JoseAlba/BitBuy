@@ -1,0 +1,13 @@
+ErrorDocument 400 /errors/badrequest.html
+ErrorDocument 401 /errors/authoriationrequired.html
+ErrorDocument 403 /errors/forbidden.html
+ErrorDocument 404 /errors/filenotfound.html
+ErrorDocument 500 /errors/internalservererror.html
+
+#DirectoryIndex index.php index.html home.html
+
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>

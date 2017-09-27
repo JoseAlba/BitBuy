@@ -1,0 +1,30 @@
+.green{
+    background-color: #77b27d;
+}
+
+.orange{
+    background-color: orange;
+}
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #000;
+}
+
+.fullscreen{
+    /* The image used */
+    background-image: url("../img/home.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signRegister h3{
+    color: blue;
+}
